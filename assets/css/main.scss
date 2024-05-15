@@ -1,0 +1,105 @@
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#hero {
+    /*background-image: url("/assets/banner.jpg");*/
+    background-size: cover; background-position: center; position: fixed;
+    inset: 0;
+    text-align: center;
+    z-index: 1; 
+}
+
+#hero-gradient { 
+    background-size: cover; background-position: center; position: fixed;
+    inset: 0;
+    text-align: center;
+    z-index: 0;
+}
+
+#hero-inner { position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px #00000085;
+    font-size: 3vw;
+    font-weight: bold;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.25) 7%);
+}
+
+#hero-skipper {
+    height: max-content;
+    min-height: 100vh;
+    background: #222;
+    width: 100%;
+    z-index: 9;
+    position: absolute;
+    margin-top: 100vh;
+    box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, .5);
+}
+
+.countdown {
+    max-width: 249px;
+}
+
+.btn-outline-discord {
+    --bs-btn-color: #5865F2;
+    --bs-btn-border-color: #5865F2;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #5865F2;
+    --bs-btn-hover-border-color: #5865F2;
+    --bs-btn-focus-shadow-rgb: rgb(13, 202, 240);
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #5865F2;
+    --bs-btn-active-border-color: #5865F2;
+    --bs-btn-disabled-color: #5865F2;
+    --bs-btn-disabled-bg: #00000000;
+    --bs-btn-disabled-border-color: #5865F2;
+    --bs-gradient: none;
+}
+
+@media (min-width: 992px) {
+    .w-100 {
+        width: 75% !important;
+    }
+}
+
+.avatar {
+  aspect-ratio: 1 / 1;
+  height: 85px;
+  width: 85px;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+@media (max-width: 992px) {
+  .text-container {
+    text-align: center;
+  }
+}
+
+// Brands
+.icon {
+  background-color: #00000000;
+  border-style: solid;
+  padding: 2px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+.icon-brand-website {
+  border-color: #888888;
+  filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(291deg) brightness(97%) contrast(95%);
+}
+
+.icon-brand-x {
+  border-color: #000;
+  filter: invert(0%) sepia(95%) saturate(7500%) hue-rotate(63deg) brightness(106%) contrast(101%);
+}
