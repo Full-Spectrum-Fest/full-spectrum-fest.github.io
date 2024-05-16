@@ -45,7 +45,7 @@
 }
 
 .countdown {
-    max-width: 249px;
+    width: 300px;
 }
 
 .btn-outline-discord {
@@ -99,7 +99,17 @@
   filter: invert(55%) sepia(0%) saturate(1%) hue-rotate(291deg) brightness(97%) contrast(95%);
 }
 
-.icon-brand-x {
+.icon-brand-x, .icon-brand.tiktok {
   border-color: #000;
   filter: invert(0%) sepia(95%) saturate(7500%) hue-rotate(63deg) brightness(106%) contrast(101%);
+}
+
+.icon-brand-instagram {
+  border-color: #DD2A7B;
+  filter: invert(30%) sepia(90%) saturate(3510%) hue-rotate(316deg) brightness(89%) contrast(93%);
+}
+
+.icon-brand-deviantart {
+  border-color: #05cc47;
+  filter: invert(53%) sepia(38%) saturate(4576%) hue-rotate(106deg) brightness(106%) contrast(96%);
 }
